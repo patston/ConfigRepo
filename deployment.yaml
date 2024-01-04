@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: web-app-container
-        image: web-app:1.0
+        image: web-app:1.21.0
   strategy:
     type: RollingUpdate
     rollingUpdate:
