@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: web-app-container
-        image: patston/web-app:1.2
+        image: patston/web-app:1.1
   strategy:
     type: RollingUpdate
     rollingUpdate:
